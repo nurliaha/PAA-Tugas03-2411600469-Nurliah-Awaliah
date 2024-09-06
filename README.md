@@ -18,3 +18,13 @@
 java -cp build/classes/java/main Main
 java -cp build/classes/java/main Segitiga
 ```
+
+## Screenshots
+
+1. Nilai Tengah
+
+![Nilai Tengah](screenshots/PAA-Tugas03-Nilai-Tengah.gif)
+
+2. Segitiga
+
+![Nilai Tengah](screenshots/PAA-Tugas03-Segitiga.gif)
