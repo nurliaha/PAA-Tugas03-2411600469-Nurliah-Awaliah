@@ -15,3 +15,15 @@ dependencies {
 test {
     useJUnitPlatform()
 }
+
+tasks.register('runMain', JavaExec) {
+    main = 'Main'
+    classpath = sourceSets.main.runtimeClasspath
+    standardInput = System.in
+}
+
+tasks.register('runSegitiga', JavaExec) {
+    main = 'Segitiga'
+    classpath = sourceSets.main.runtimeClasspath
+    standardInput = System.in
+}
